@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTime.Infrastructure", "CodeTime.Infrastructure\CodeTime.Infrastructure.csproj", "{608F7FCB-75AF-448A-B27E-22808D91580A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTime.Domain", "CodeTime.Domain\CodeTime.Domain.csproj", "{5DAC0AB6-1E7E-4A51-8D20-55D7BE592982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTime.Data", "CodeTime.Data\CodeTime.Data.csproj", "{0B985454-8D2C-4B35-B155-07BDE01DDCFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTime.Test", "CodeTime.Test\CodeTime.Test.csproj", "{602771A9-31EC-4242-90DE-62964FED6427}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE0478D2-6C9B-435B-83B1-1BB275B94187}"
+	ProjectSection(SolutionItems) = preProject
+		CodeTime.vsmdi = CodeTime.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_Data", "2_Data", "{57D7A9CB-2DEF-402A-9F9B-8790DFDCD963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTime.Domain.Data", "CodeTime.Domain.Data\CodeTime.Domain.Data.csproj", "{CA92334C-5589-4FC4-8C36-E6E496DB9325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTime.Domain.Data.Test", "CodeTime.Domain.Data.Test\CodeTime.Domain.Data.Test.csproj", "{F5B96699-C432-42AD-9A8A-05223F6E9419}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_Infrastructure", "1_Infrastructure", "{A4A8D5E8-3F0A-4112-8028-3BD9CC32C429}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_Domain", "3_Domain", "{2A60BEA0-00A8-45B1-82F9-7FC12889075D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4_Service", "4_Service", "{E4A83831-729A-418E-A39C-08E0D55D2B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTime.OpenRasta.Service", "CodeTime.OpenRasta.Service\CodeTime.OpenRasta.Service.csproj", "{895CD86C-C1DC-4738-9FBD-FDF5B1E5ACB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTimeConsole", "CodeTimeConsole\CodeTimeConsole.csproj", "{AA13FF7F-CAC0-47F2-A8F1-962137A0DA22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5_Client", "5_Client", "{D40DF44B-3508-46FC-ABB8-46E50D2E048A}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CodeTime.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{608F7FCB-75AF-448A-B27E-22808D91580A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{608F7FCB-75AF-448A-B27E-22808D91580A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{608F7FCB-75AF-448A-B27E-22808D91580A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{608F7FCB-75AF-448A-B27E-22808D91580A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DAC0AB6-1E7E-4A51-8D20-55D7BE592982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAC0AB6-1E7E-4A51-8D20-55D7BE592982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAC0AB6-1E7E-4A51-8D20-55D7BE592982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAC0AB6-1E7E-4A51-8D20-55D7BE592982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B985454-8D2C-4B35-B155-07BDE01DDCFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B985454-8D2C-4B35-B155-07BDE01DDCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B985454-8D2C-4B35-B155-07BDE01DDCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B985454-8D2C-4B35-B155-07BDE01DDCFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{602771A9-31EC-4242-90DE-62964FED6427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602771A9-31EC-4242-90DE-62964FED6427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{602771A9-31EC-4242-90DE-62964FED6427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602771A9-31EC-4242-90DE-62964FED6427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA92334C-5589-4FC4-8C36-E6E496DB9325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA92334C-5589-4FC4-8C36-E6E496DB9325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA92334C-5589-4FC4-8C36-E6E496DB9325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA92334C-5589-4FC4-8C36-E6E496DB9325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B96699-C432-42AD-9A8A-05223F6E9419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B96699-C432-42AD-9A8A-05223F6E9419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B96699-C432-42AD-9A8A-05223F6E9419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B96699-C432-42AD-9A8A-05223F6E9419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895CD86C-C1DC-4738-9FBD-FDF5B1E5ACB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895CD86C-C1DC-4738-9FBD-FDF5B1E5ACB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895CD86C-C1DC-4738-9FBD-FDF5B1E5ACB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895CD86C-C1DC-4738-9FBD-FDF5B1E5ACB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA13FF7F-CAC0-47F2-A8F1-962137A0DA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA13FF7F-CAC0-47F2-A8F1-962137A0DA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA13FF7F-CAC0-47F2-A8F1-962137A0DA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA13FF7F-CAC0-47F2-A8F1-962137A0DA22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{602771A9-31EC-4242-90DE-62964FED6427} = {A4A8D5E8-3F0A-4112-8028-3BD9CC32C429}
+		{608F7FCB-75AF-448A-B27E-22808D91580A} = {A4A8D5E8-3F0A-4112-8028-3BD9CC32C429}
+		{5DAC0AB6-1E7E-4A51-8D20-55D7BE592982} = {2A60BEA0-00A8-45B1-82F9-7FC12889075D}
+		{0B985454-8D2C-4B35-B155-07BDE01DDCFD} = {57D7A9CB-2DEF-402A-9F9B-8790DFDCD963}
+		{CA92334C-5589-4FC4-8C36-E6E496DB9325} = {57D7A9CB-2DEF-402A-9F9B-8790DFDCD963}
+		{F5B96699-C432-42AD-9A8A-05223F6E9419} = {57D7A9CB-2DEF-402A-9F9B-8790DFDCD963}
+		{895CD86C-C1DC-4738-9FBD-FDF5B1E5ACB8} = {E4A83831-729A-418E-A39C-08E0D55D2B96}
+	EndGlobalSection
+EndGlobal
