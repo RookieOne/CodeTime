@@ -21,7 +21,7 @@ namespace CodeTimeConsole
 
         static void Get()
         {
-            var request = WebRequest.Create("http://localhost:1198/projects")
+            var request = WebRequest.Create("http://localhost:1198/myZip.zip")
               as HttpWebRequest;
 
             var response = request.GetResponse();
@@ -30,11 +30,15 @@ namespace CodeTimeConsole
 
             var reader = new StreamReader(stream);
 
+            var fileStream = new FileStream(@"C:\temp\", FileMode.Create);
+
+            var writer = new StreamWriter(fileStream);
+
             while (!reader.EndOfStream)
             {
                 var output = reader.ReadLine();
                 Console.WriteLine(output);
             }
-        }
+        }       
     }
 }

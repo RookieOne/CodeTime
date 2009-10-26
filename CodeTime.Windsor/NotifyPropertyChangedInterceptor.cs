@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
 using Castle.Core.Interceptor;
-using CodeTime.Infrastructure.Aop;
+using CodeTime.Infrastructure.Attributes;
 
 namespace CodeTime.Windsor
 {

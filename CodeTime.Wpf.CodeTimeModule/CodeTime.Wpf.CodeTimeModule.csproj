@@ -85,6 +85,10 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CodeTime.Data\CodeTime.Data.csproj">
+      <Project>{0B985454-8D2C-4B35-B155-07BDE01DDCFD}</Project>
+      <Name>CodeTime.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CodeTime.Domain\CodeTime.Domain.csproj">
       <Project>{5DAC0AB6-1E7E-4A51-8D20-55D7BE592982}</Project>
       <Name>CodeTime.Domain</Name>
