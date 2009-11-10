@@ -31,6 +31,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Castle.Core, Version=1.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.DynamicProxy2, Version=2.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\Castle.DynamicProxy2.dll</HintPath>
+    </Reference>
     <Reference Include="FluentNHibernate, Version=1.0.0.593, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Dlls\FluentNHibernate.dll</HintPath>
@@ -59,8 +67,13 @@
     <Compile Include="ContextSpecifications\SetupForNHibernate.cs" />
     <Compile Include="Projects\ProjectRepository.cs" />
     <Compile Include="Projects\When_getting_all_projects.cs" />
+    <Compile Include="Projects\When_getting_a_project_with_areas.cs" />
+    <Compile Include="Projects\When_saving_a_project_with_areas.cs" />
+    <Compile Include="Projects\When_saving_a_project_with_tasks.cs" />
     <Compile Include="Projects\When_saving_new_project.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tickets\TicketRepository.cs" />
+    <Compile Include="Tickets\When_getting_all_tickets.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodeTime.Data\CodeTime.Data.csproj">
@@ -83,6 +96,9 @@
       <Project>{602771A9-31EC-4242-90DE-62964FED6427}</Project>
       <Name>CodeTime.Test</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Users\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

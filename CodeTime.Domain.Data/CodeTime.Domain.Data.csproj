@@ -31,7 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FluentNHibernate, Version=1.0.0.593, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+    <Reference Include="FluentNHibernate, Version=1.0.0.595, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Dlls\FluentNHibernate.dll</HintPath>
     </Reference>
@@ -53,8 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Projects\AreaMap.cs" />
     <Compile Include="Projects\ProjectMap.cs" />
+    <Compile Include="Projects\TaskMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tickets\TicketMap.cs" />
+    <Compile Include="Users\UserMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodeTime.Data\CodeTime.Data.csproj">

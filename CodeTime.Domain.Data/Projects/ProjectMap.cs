@@ -9,8 +9,9 @@ namespace CodeTime.Domain.Data.Projects
         {
             Table("Projects");
 
-            Id(x => x.Id).GeneratedBy.GuidComb();
+            Id(x => x.Id);
             Map(x => x.Name);
+            HasMany(x => x.Areas).Cascade.All();
         }
     }
 }

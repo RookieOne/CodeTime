@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="CodeTimeSilverlight.ProjectsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid x:Name="LayoutRoot" Background="White">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Grid.Row="0"
+                    Grid.Column="0">
+            
+            <TextBlock Text="Projects" />
+            
+            <ListBox ItemsSource="{Binding Projects}"                     
+                     />
+            
+        </StackPanel>
+        
+    </Grid>
+</UserControl>

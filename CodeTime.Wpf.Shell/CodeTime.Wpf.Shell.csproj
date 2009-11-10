@@ -105,10 +105,6 @@
       <Project>{608F7FCB-75AF-448A-B27E-22808D91580A}</Project>
       <Name>CodeTime.Infrastructure</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CodeTime.Windsor\CodeTime.Windsor.csproj">
-      <Project>{589B7D77-8A88-46AB-BBC3-184DBAF07047}</Project>
-      <Name>CodeTime.Windsor</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CodeTime.Wpf.CodeTimeModule\CodeTime.Wpf.CodeTimeModule.csproj">
       <Project>{4218E028-9E62-4130-BAA5-E5001C8C1F75}</Project>
       <Name>CodeTime.Wpf.CodeTimeModule</Name>

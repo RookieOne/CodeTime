@@ -1,23 +1,23 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
-using CodeTime.Domain.Projects;
+using CodeTime.Domain.Tickets;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CodeTime.Domain.Data.Test.Projects
+namespace CodeTime.Domain.Data.Test.Tickets
 {
     [TestClass]
-    public class When_getting_all_projects : ProjectRepository
+    public class When_getting_all_tickets : TicketRepository
     {
-        IEnumerable<Project> _Projects;
+        IEnumerable<Ticket> _Projects;
 
         protected override void When()
         {
             base.When();
 
-            _Repository.Save(new Project
-                                 {
-                                     Name = "Test Project"
-                                 });
+            var ticket = new Ticket();
+            ticket.Start = DateTime.Today.AddDays(-1);
+            ticket.End = DateTime.Today;
 
             _Projects = _Repository.GetAll();
         }
