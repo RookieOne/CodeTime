@@ -88,10 +88,6 @@
       <Project>{5DAC0AB6-1E7E-4A51-8D20-55D7BE592982}</Project>
       <Name>CodeTime.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CodeTime.Infrastructure\CodeTime.Infrastructure.csproj">
-      <Project>{608F7FCB-75AF-448A-B27E-22808D91580A}</Project>
-      <Name>CodeTime.Infrastructure</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CodeTime.Test\CodeTime.Test.csproj">
       <Project>{602771A9-31EC-4242-90DE-62964FED6427}</Project>
       <Name>CodeTime.Test</Name>

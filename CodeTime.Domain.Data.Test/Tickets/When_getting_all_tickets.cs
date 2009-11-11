@@ -17,7 +17,9 @@ namespace CodeTime.Domain.Data.Test.Tickets
 
             var ticket = new Ticket();
             ticket.Start = DateTime.Today.AddDays(-1);
-            ticket.End = DateTime.Today;
+            ticket.End = DateTime.Today;            
+
+            _Repository.Save(ticket);
 
             _Projects = _Repository.GetAll();
         }
